@@ -2,7 +2,7 @@
 
 An example of one way to package a web site and web server with [Habitat](http://habitat.sh).
 
-First, install Habitat. Then:
+First, [install Habitat](http://habitat.sh/download/). Then:
 
 ```
 $ export HAB_ORIGIN="your-origin"
