@@ -35,7 +35,7 @@ You should see a blank page.
 
 ```
 [3][default:/src:0]# echo "[http.server]
-root = '$(hab pkg path cnunciato/hello-hab-site)/dist'" | hab config apply hello-hab-server.default 1
+root = '$(hab pkg path $HAB_ORIGIN/hello-hab-site)/dist'" | hab config apply hello-hab-server.default 1
 ```
 
 ```
